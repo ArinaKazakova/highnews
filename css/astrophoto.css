@@ -1,0 +1,35 @@
+
+.gallery {
+	padding: .5vw;
+	margin-bottom:  10vw;
+	font-size: 0;
+	flex-wrap: wrap;
+	flex-direction: column;
+	flex-flow: row wrap;
+	display: flex;
+}
+
+.gallery div {
+	flex: auto;
+	width: 237px;
+	margin:  .5vw;
+}
+
+.gallery img {
+	width: 100%;
+	height: auto;
+}
+
+
+.gallery:hover img {
+	opacity: 0.3;
+	transition: 0.8s opacity;
+}
+
+.gallery:hover img:hover {
+	opacity: 1;
+	transition: .8s opacity;
+}
+
+
+

@@ -1,0 +1,16 @@
+.title_img {
+	margin: 10px auto;
+	width: 100%;
+}
+.title_text {
+text-align: justify;
+font-size: 18px;
+line-height: 27px;
+padding:5px;
+}
+
+.news_title h2{
+	font-size: 30px;
+	letter-spacing: 1px;
+	margin: 30px auto;
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Новостной портал HighNews</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif|Cinzel:900" rel="stylesheet">
+	<script src=search.js></script>
+</head>
+<body>
+					<!-- Шапка -->
+	
+<section>	
+<header id="header">
+
+			 <nav class="dc-menu">
+			  	<a href="#" class="dc-menu-trigger"><span>Menu</span></a>
+			  	<div class="menu-overlay">
+			 		  <ul>
+					     <li><a href="index.html"> Главная</a></li> 
+					     <li><a href="all_news.html"> Все новости</a></li>
+					      
+					     <li><a href="astrophoto.html"> Астрофото</a></li>
+					
+					     <li><div class="form ">
+					<form class="search" action="">
+
+						<button class="search__button" onclick="javascript: FindOnPage('text-to-find'); ">	</button>
+						<input id="text-to-find" class="search__field" type="text" name=""  placeholder="Искать">
+						
+					</form>
+				</div></li>
+					  </ul>
+			  	</div>
+			 </nav>
+
+
+	</header>
+
+
+					<!-- Слайдер -->
+		<div class="header">
+			<span class="title"><h1>High News</h1>
+				<h6>Новостной портал</h6></span> 
+		<div class="div-style">
+			
+	        <img src="img/bg1.png" title="" class="img-style im-1 top">
+	        <img src="img/bg2.png" title="" class="img-style next im-2">
+	        <img src="img/bg3.png" title="" class="img-style next im-3">
+	        <img src="img/bg4.png" title="" class="img-style next im-4">
+     	</div> 
+     	</div>
+   </section>
+   
+
+   <div class="container ">
+   	<div class="first_title clearfix">
+   				<h2 >Новость недели</h2>
+   			</div>
+			<div class="category1 clearfix">
+					
+				<div>
+					<a href="news1.html"><img class="img" src="img/title1_mini.jpeg" alt=""></a>
+				</div>
+				<div class="text ">
+					<h3><a href="news1.html">Российская орбитальная станция может заменить МКС</a></h3>
+					<p>"В случае принятия решения о прекращении работы МКС может быть создана российская станция", - рассказал конструктор на "Королёвских чтениях" в Москве.</p>
+				</div>
+			</div>
+		</div>
+
+
+	
+
+
+
+	<hr>
+
+	<div class="container ">
+		<div id="all_news">
+			<div class="item1">
+
+				<a href="news2.html"><img src="img/item1.jpg" alt=""></a>
+				<p><a href="news2.html">Космические телескопы "Хаббл" и "Спитцер" наблюдают очень далекую галактику</a></p>
+		
+
+				
+			</div>
+			<div class="item1">
+				<a href="news3.html"><img src="img/item2.jpg" alt=""></a>
+				<p><a href="news3.html">Ученые назвали Титан двойником Земли</a></p>
+			</div>
+			<div class="item1">
+				<img src="img/item3.jpg" alt="">
+				<p><a href="news4.html">ЕКА назвала сроки падения китайской космической станции на Землю</a></p>
+			</div>
+
+			<div class="item1">
+				<a href="news5.html"><img src="img/item4.jpg" alt=""></a>
+				<p><a href="news5.html">Ученые определили потерю массы Солнцем по изменениям орбиты Меркурия</a></p>
+			</div>
+			<div class="item1">
+				<a href="news6.html"><img src="img/item5.jpg" alt=""></a>
+				<p><a href="news6.html">NASA обнаружили в соседней галактике сложные органические соединения</a></p>
+			</div>
+			<div class="item1">
+					<a href="news7.html"><img src="img/item6.jpg" alt=""></a>
+			<p>	<a href="news7.html">Астрономы впервые заметили планеты в другой галактике</a></p>
+			</div>
+
+			
+		</div>
+		
+			<span style="height: 20px;
+  display: table;
+  margin-bottom:50px;" id="link_allnews">
+				<a style="width: 120px;
+  color: #fff;
+  text-decoration: none;
+  background: #135caf;
+  padding: 10px;"  href="all_news.html">Все новости</a>
+			</span>
+	</div>
+
+
+	<section style=" padding: 20px 0 0px 0 ;" id="contact" class="clearfix">
+		<div class="container">
+			<span class="contact__title ">
+   					<h2>Связь с нами</h2>
+   				</span>
+			<div class="contact">
+				
+   				<form action="form.php" method="post" class="contact_form" >
+   					<input class="contact_form__e-mail" maxlength="50" type="email" name="email" placeholder="Введите ваш e-mail">
+   				<br>
+   					<textarea type="text" class="contact_form__message" rows="18" wrap="physical"  name="message" placeholder="Введите сообщение" value=""></textarea>
+   				<br>
+   				<button type="sumbit" class="contact_form__button">Отправить</button>
+   				</form>
+
+   				<div class="contact__social_link" >
+   					<a href="#">	
+   						<img src="img/facebook.png" alt="">
+   					</a>
+   					<a href="#">	
+   						<img src="img/vk.png" alt="">
+   					</a>
+   					<a href="#">	
+   						<img src="img/insta.png" alt="">
+   					</a>
+   					<a href="#">	
+   						<img src="img/twitter.png" alt="">
+   					</a>
+   				</div>
+
+			</div>	
+
+			<p style=" text-align: center;
+  margin: 0;" class="breadcrumb">
+				<a style="color: #C9CACC; " href="index.html">Главная</a> /
+				<a style="color: #C9CACC;" href="all_news.html">Все новости</a> /
+				<a style="color: #C9CACC;" href="astrophoto.html">Астрофото</a> 
+		
+			</p>
+			<section id="footer">
+
+		<div class="container">
+			
+			<p>© 2018 Taganrog. All Rights Reserved.  </p>
+		</div>
+	</section>
+
+		</div>
+
+	</section>
+
+<script src="jquery-3.3.1.slim.js"></script>
+<script src="js.js"></script>
+
+</body>
+</html>
