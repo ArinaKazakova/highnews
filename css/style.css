@@ -26,122 +26,7 @@ body {
 
 
 
-                      /* Адаптив */
-
-  @media screen and (max-width: 1200px) {
-    .container {
-      width: 900px;
-      margin: 0 auto;
-    }
-
-    div.text  {
-   text-align: justify;
-   width: 486px;
-  }
-}
-
-  @media screen and (max-width: 898px) {
-    .container {
-      width: 690px;
-      margin: 0 auto;
-    }
- #contact{
-      background:url(../img/bottom_bg.jpg);
-    }
-    .title {
-    font-size: 0.6em; }
-    .title h6 {
-      display: none;
-    }
-      h2{
-    font-size: 46px;
-    padding: 8px;
-    line-height: 40px;
-    margin: 30px auto;
-    text-align: center;
-    text-decoration: none;
-    letter-spacing: 3px;
-  }
-  }
-
-
-
-
-@media  screen and (max-width: 560px)  {
-    .container {
-      width: 360px;
-      margin: 0 auto;
-    }
-     h2{
-  font-size: 34px;}
-  
-   
-  }
-  @media  screen and (max-width: 660px)  {
-    .container {
-      width: 360px;
-      margin: 0 auto;
-    }
-  .title {
-    font-size: 0.4em; }
-    h2{
-  font-size: 2em;}
-  
-  .img {
-    width: 100%;
-  }
- 
-  .text {
-   margin-top:20px;
- }
- form.contact_form{
-     width:90%;
- }
- input.contact_form__e-mail{
-     min-width:100%;
- }
- textarea.contact_form__message {
-     min-width:100%;
- }
- .contact_form__button{
-     min-width:100%;
- }
- 
-}
-
-
-
-@media  screen and (max-width: 460px)  {
-    
-     .container {
-      width: 360px;
-      margin: 0 auto;
-    }
-    .text {
-   
-   max-width: 300px;
-  }
-     h2{
-  font-size: 1.8em;
- }
- 
-  
-}
-
-
-  @media  screen and (max-width: 320px)  {
-    .container {
-      width: 300px;
-      margin: 0 auto;
-    }
-     .title {
-    font-size: 0.3em; 
-  }
-
- }
-/* _____________________________________________________________ */
-
-
+                    
 
   
 
@@ -811,5 +696,120 @@ p.breadcrumb{
  
  /* _____________________________________________________________ */
 }
+
+  /* Адаптив */
+
+  @media screen and (max-width: 1200px) {
+    .container {
+      width: 900px;
+      margin: 0 auto;
+    }
+
+    div.text  {
+   text-align: justify;
+   width: 486px;
+  }
+}
+
+  @media screen and (max-width: 898px) {
+    .container {
+      width: 690px;
+      margin: 0 auto;
+    }
+ #contact{
+      background:url(../img/bottom_bg.jpg);
+    }
+    .title {
+    font-size: 0.6em; }
+    .title h6 {
+      display: none;
+    }
+      h2{
+    font-size: 46px;
+    padding: 8px;
+    line-height: 40px;
+    margin: 30px auto;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 3px;
+  }
+  }
+
+
+
+
+@media  screen and (max-width: 560px)  {
+    .container {
+      width: 360px;
+      margin: 0 auto;
+    }
+     h2{
+  font-size: 34px;}
+  
+   
+  }
+  @media  screen and (max-width: 660px)  {
+    .container {
+      width: 360px;
+      margin: 0 auto;
+    }
+  .title {
+    font-size: 0.4em; }
+    h2{
+  font-size: 2em;}
+  
+  .img {
+    width: 100%;
+  }
+ 
+  .text {
+   margin-top:20px;
+ }
+ form.contact_form{
+     width:90%;
+ }
+ input.contact_form__e-mail{
+     min-width:100%;
+ }
+ textarea.contact_form__message {
+     min-width:100%;
+ }
+ .contact_form__button{
+     min-width:100%;
+ }
+ 
+}
+
+
+
+@media  screen and (max-width: 460px)  {
+    
+     .container {
+      width: 360px;
+      margin: 0 auto;
+    }
+    .text {
+   
+   max-width: 300px;
+  }
+     h2{
+  font-size: 1.8em;
+ }
+ 
+  
+}
+
+
+  @media  screen and (max-width: 320px)  {
+    .container {
+      width: 300px;
+      margin: 0 auto;
+    }
+     .title {
+    font-size: 0.3em; 
+  }
+
+ }
+/* _____________________________________________________________ */
 
 
